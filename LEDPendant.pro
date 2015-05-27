@@ -1,4 +1,4 @@
-update=Wednesday, May 27, 2015 'PMt' 02:12:36 PM
+update=Wednesday, May 27, 2015 'PMt' 03:08:49 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=nrf24lu1p
+LibName31=ab2_usb
+LibName32=apa-102
