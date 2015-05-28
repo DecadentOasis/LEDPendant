@@ -1,4 +1,4 @@
-update=Wednesday, May 27, 2015 'PMt' 03:08:49 PM
+update=Wednesday, May 27, 2015 'PMt' 05:00:46 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=nrf24lu1p
 LibName31=ab2_usb
 LibName32=apa-102
+LibName33=antenna
