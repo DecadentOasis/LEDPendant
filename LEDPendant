@@ -1,0 +1,10 @@
+Qty,partname,description,lib
+0,"nRF24LU1P","","nrf24lu1p"
+0,"R","Resistor","device"
+0,"INDUCTOR","","device"
+0,"Crystal","Two pin crystal","device"
+0,"C","Unpolarized capacitor","device"
+0,"CP","Polarised capacitor","device"
+0,"APA-102","Triple LED RVB (Avago Technology)","apa-102"
+0,"ANTENNA","","antenna"
+0,"AB2_USB","","ab2_usb"

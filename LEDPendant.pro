@@ -1,4 +1,4 @@
-update=Wednesday, May 27, 2015 'PMt' 05:00:46 PM
+update=Wednesday, May 27, 2015 'PMt' 05:03:30 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,13 @@ LibName30=nrf24lu1p
 LibName31=ab2_usb
 LibName32=apa-102
 LibName33=antenna
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

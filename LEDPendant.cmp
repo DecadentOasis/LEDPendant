@@ -1,0 +1,241 @@
+Cmp-Mod V01 Created by Cvpcb (2015-05-23 BZR 5679)-product   date = Saturday, May 30, 2015 'PMt' 01:35:44 PM
+
+BeginCmp
+TimeStamp = /55668E03;
+Reference = ANT1;
+ValeurCmp = ANTENNA;
+IdModule  = antennes:Ant_Microchip_2_4G;
+EndCmp
+
+BeginCmp
+TimeStamp = /55664013;
+Reference = C1;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = /55665A51;
+Reference = C2;
+ValeurCmp = 15pf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55665B3D;
+Reference = C3;
+ValeurCmp = 15pf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55663B1A;
+Reference = C4;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55665365;
+Reference = C5;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556663F3;
+Reference = C6;
+ValeurCmp = 33nf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566646E;
+Reference = C7;
+ValeurCmp = 33nf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55666DE5;
+Reference = C8;
+ValeurCmp = 100nf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55666E2C;
+Reference = C9;
+ValeurCmp = 2.2nf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566866C;
+Reference = C10;
+ValeurCmp = 1.2pf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556687D9;
+Reference = C11;
+ValeurCmp = 1.0pf;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A2189;
+Reference = C12;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A21FA;
+Reference = C13;
+ValeurCmp = 0.1uF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55666FA9;
+Reference = L1;
+ValeurCmp = 6.8nh;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55667016;
+Reference = L2;
+ValeurCmp = 6.8nh;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55667065;
+Reference = L3;
+ValeurCmp = 4.7nh;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55663C26;
+Reference = R1;
+ValeurCmp = 10;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556641F5;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556658CC;
+Reference = R3;
+ValeurCmp = 1M;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55663D20;
+Reference = R4;
+ValeurCmp = 22;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55663D6A;
+Reference = R5;
+ValeurCmp = 22;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556652D6;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566649C;
+Reference = R7;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55663363;
+Reference = U1;
+ValeurCmp = nRF24LU1P;
+IdModule  = Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55664642;
+Reference = U2;
+ValeurCmp = APA-102;
+IdModule  = CrumpPrints:APA102;
+EndCmp
+
+BeginCmp
+TimeStamp = /55664718;
+Reference = U3;
+ValeurCmp = APA-102;
+IdModule  = CrumpPrints:APA102;
+EndCmp
+
+BeginCmp
+TimeStamp = /556646B2;
+Reference = U4;
+ValeurCmp = APA-102;
+IdModule  = CrumpPrints:APA102;
+EndCmp
+
+BeginCmp
+TimeStamp = /5566474E;
+Reference = U5;
+ValeurCmp = APA-102;
+IdModule  = CrumpPrints:APA102;
+EndCmp
+
+BeginCmp
+TimeStamp = /556646E9;
+Reference = U6;
+ValeurCmp = APA-102;
+IdModule  = CrumpPrints:APA102;
+EndCmp
+
+BeginCmp
+TimeStamp = /55664782;
+Reference = U7;
+ValeurCmp = APA-102;
+IdModule  = CrumpPrints:APA102;
+EndCmp
+
+BeginCmp
+TimeStamp = /556A1D7E;
+Reference = U8;
+ValeurCmp = LD1117S33TR;
+IdModule  = SMD_Packages:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = /55663A24;
+Reference = USB1;
+ValeurCmp = AB2_USB;
+IdModule  = ab2_usb:AB2_USB_MICRO_SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = /55665881;
+Reference = Y1;
+ValeurCmp = Crystal;
+IdModule  = Crystals:Crystal_SMD_0603_4Pads;
+EndCmp
+
+EndListe
