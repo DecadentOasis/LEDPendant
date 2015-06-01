@@ -21,11 +21,11 @@
       )
     )
     (boundary
-      (path pcb 0  193040 -160020  158750 -160020  158750 -81280  193040 -81280
-            193040 -160020)
+      (path pcb 0  226060 -93980  130175 -93980  130175 -149860  226060 -149860
+            226060 -93980)
     )
-    (plane GND (polygon F.Cu 0  193040 -160020  158750 -160020  158750 -99060  193040 -99060))
-    (plane VCC (polygon In1.Cu 0  193040 -160020  158750 -160020  158750 -99060  193040 -99060))
+    (plane GND (polygon F.Cu 0  226060 -149860  146685 -149860  146685 -93980  226060 -93980))
+    (plane VCC (polygon In1.Cu 0  226060 -149860  146685 -149860  146685 -93980  226060 -93980))
     (via "Via[0-1]_600:400_um")
     (rule
       (width 250)
@@ -36,56 +36,65 @@
   )
   (placement
     (component antennes:Ant_Microchip_2_4G
-      (place ANT1 176530 -91440 front 0 (PN ANTENNA))
+      (place ANT1 142240 -121920 front 90 (PN ANTENNA))
     )
     (component "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_Reflow"
-      (place C1 185420 -130810 back 180 (PN 10uF))
-      (place C12 180340 -113030 back 180 (PN 10uF))
+      (place C1 223520 -114935 back 180 (PN 10uF))
+      (place C12 223520 -147320 back 180 (PN 10uF))
     )
     (component Capacitors_SMD:C_0805
-      (place C2 182880 -121920 back 180 (PN 15pf))
-      (place C3 168910 -120650 back 90 (PN 15pf))
-      (place C4 185420 -113030 back 180 (PN 10n))
-      (place C5 165100 -100330 back 180 (PN 10n))
-      (place C6 173990 -138430 back 180 (PN 33nf))
-      (place C7 167640 -125730 back 90 (PN 33nf))
-      (place C8 180340 -105410 back 180 (PN 100nf))
-      (place C9 167640 -132080 back 180 (PN 2.2nf))
-      (place C10 177800 -100330 back 0 (PN 1.2pf))
-      (place C11 172720 -101600 back 270 (PN 1.0pf))
-      (place C13 172720 -113030 back 180 (PN 0.1uF))
+      (place C2 202565 -108585 back 180 (PN 15pf))
+      (place C3 194945 -137795 back 180 (PN 15pf))
+      (place C4 184150 -104140 back 180 (PN 10n))
+      (place C5 216535 -118110 back 180 (PN 10n))
+      (place C6 185420 -135255 back 180 (PN 33nf))
+      (place C7 191770 -103505 back 180 (PN 33nf))
+      (place C8 221615 -127000 back 180 (PN 100nf))
+      (place C9 224155 -132080 back 180 (PN 2.2nf))
+      (place C10 224155 -140970 back 180 (PN 1.2pf))
+      (place C11 146685 -121285 back 180 (PN 1.0pf))
+      (place C13 154940 -147320 back 180 (PN 0.1uF))
     )
     (component Resistors_SMD:R_0805
-      (place L1 162560 -130810 back 270 (PN 6.8nh))
-      (place L2 162560 -134620 back 270 (PN 6.8nh))
-      (place L3 184150 -101600 back 90 (PN 4.7nh))
-      (place R1 177800 -143510 back 180 (PN 10))
-      (place R2 190500 -130810 back 180 (PN 10k))
-      (place R3 187960 -121920 back 180 (PN 1M))
-      (place R4 177800 -149860 back 180 (PN 22))
-      (place R5 173990 -149860 back 90 (PN 22))
-      (place R6 182880 -137160 back 180 (PN 10k))
-      (place R7 161290 -127000 back 90 (PN 22k))
+      (place L1 224155 -108585 back 180 (PN 6.8nh))
+      (place L2 178435 -111125 front 0 (PN 6.8nh))
+      (place L3 219710 -132080 back 180 (PN 4.7nh))
+      (place R1 177165 -135255 back 180 (PN 10))
+      (place R2 189865 -142240 back 180 (PN 10k))
+      (place R3 203200 -137160 back 180 (PN 1M))
+      (place R4 175895 -143510 back 180 (PN 22))
+      (place R5 167640 -130175 back 180 (PN 22))
+      (place R6 168910 -119380 back 180 (PN 10k))
+      (place R7 201295 -100965 back 180 (PN 22k))
+      (place R8 216535 -126365 back 180 (PN 100k))
+      (place R9 216535 -147320 back 180 (PN 10k))
+      (place R10 212725 -111125 back 180 (PN 22k))
+      (place R11 212090 -118110 back 180 (PN 47k))
+    )
+    (component Buttons_Switches_SMD:SW_SPST_PTS645
+      (place SW1 216535 -143510 front 270 (PN SPST))
+      (place SW2 216535 -100330 front 270 (PN SPST))
+      (place SW3 216535 -121920 front 270 (PN SPST))
     )
     (component "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm"
-      (place U1 175260 -130810 back 0 (PN nRF24LU1P))
+      (place U1 185420 -121920 front 270 (PN nRF24LU1P))
     )
     (component CrumpPrints:APA102
-      (place U2 168910 -102870 front 270 (PN "APA-102"))
-      (place U3 168910 -111760 front 270 (PN "APA-102"))
-      (place U4 176530 -102870 front 270 (PN "APA-102"))
-      (place U5 176530 -111760 front 270 (PN "APA-102"))
-      (place U6 184150 -102870 front 270 (PN "APA-102"))
-      (place U7 184150 -111760 front 270 (PN "APA-102"))
+      (place U2 153035 -145415 front 0 (PN "APA-102"))
+      (place U3 153035 -117475 front 0 (PN "APA-102"))
+      (place U4 153035 -135890 front 0 (PN "APA-102"))
+      (place U5 153035 -107950 front 0 (PN "APA-102"))
+      (place U6 153035 -127000 front 0 (PN "APA-102"))
+      (place U7 153035 -98425 front 0 (PN "APA-102"))
     )
     (component "SMD_Packages:SOT-223"
-      (place U8 163830 -107950 back 0 (PN LD1117S33TR))
+      (place U8 185420 -100965 front 0 (PN LD1117S33TR))
     )
     (component ab2_usb:AB2_USB_MICRO_SMD
-      (place USB1 176530 -160020 front 0 (PN AB2_USB))
+      (place USB1 227330 -121920 front 90 (PN AB2_USB))
     )
     (component Crystals:Crystal_SMD_0603_4Pads
-      (place Y1 176530 -121920 back 0 (PN Crystal))
+      (place Y1 198120 -123190 back 90 (PN Crystal))
     )
   )
   (library
@@ -226,6 +235,29 @@
       (outline (path signal 150  -600 875  600 875))
       (pin Rect[T]Pad_700x1300_um 1 -950 0)
       (pin Rect[T]Pad_700x1300_um 2 950 0)
+    )
+    (image Buttons_Switches_SMD:SW_SPST_PTS645
+      (outline (path signal 150  1750.71 0  1665.03 -541  1416.36 -1029.04  1029.04 -1416.36
+            541 -1665.03  0 -1750.71  -541 -1665.03  -1029.04 -1416.36  -1416.36 -1029.04
+            -1665.03 -541  -1750.71 0  -1665.03 541  -1416.36 1029.04  -1029.04 1416.36
+            -541 1665.03  0 1750.71  541 1665.03  1029.04 1416.36  1416.36 1029.04
+            1665.03 541))
+      (outline (path signal 50  5050 -3400  5050 3400))
+      (outline (path signal 50  -5050 3400  -5050 -3400))
+      (outline (path signal 50  -5050 -3400  5050 -3400))
+      (outline (path signal 50  -5050 3400  5050 3400))
+      (outline (path signal 150  3225 3225  3225 3100))
+      (outline (path signal 150  3225 -3225  3225 -3100))
+      (outline (path signal 150  -3225 -3225  -3225 -3100))
+      (outline (path signal 150  -3225 3100  -3225 3225))
+      (outline (path signal 150  3225 1400  3225 -1400))
+      (outline (path signal 150  -3225 3225  3225 3225))
+      (outline (path signal 150  -3225 1400  -3225 -1400))
+      (outline (path signal 150  -3225 -3225  3225 -3225))
+      (pin Rect[T]Pad_1550x1300_um 2 -3975 -2250)
+      (pin Rect[T]Pad_1550x1300_um 1 -3975 2250)
+      (pin Rect[T]Pad_1550x1300_um 1@1 3975 2250)
+      (pin Rect[T]Pad_1550x1300_um 2@1 3975 -2250)
     )
     (image "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm"
       (outline (path signal 50  -3000 3000  -3000 -3000))
@@ -432,6 +464,10 @@
       (shape (rect F.Cu -769.62 -770.89 769.62 770.89))
       (attach off)
     )
+    (padstack Rect[T]Pad_1550x1300_um
+      (shape (rect F.Cu -775 -650 775 650))
+      (attach off)
+    )
     (padstack Rect[T]Pad_1725x1725_um
       (shape (rect F.Cu -862.5 -862.5 862.5 862.5))
       (attach off)
@@ -453,8 +489,8 @@
   (network
     (net GND
       (pins C1-2 C2-1 C3-1 C4-1 C5-2 C6-2 C7-2 C8-2 C9-2 C11-2 C12-2 C13-2 R2-2 R7-1
-        U1-6 U1-12 U1-17 U1-18 U1-23 U1-26 U1-30 U2-3 U3-3 U4-3 U5-3 U6-3 U7-3 U8-1
-        USB1-5)
+        R8-1 U1-6 U1-12 U1-17 U1-18 U1-23 U1-26 U1-30 U2-3 U3-3 U4-3 U5-3 U6-3 U7-3
+        U8-1 USB1-5)
     )
     (net "Net-(C1-Pad1)"
       (pins C1-1 R1-2 U1-2)
@@ -466,8 +502,8 @@
       (pins C3-2 R3-2 U1-32 Y1-2)
     )
     (net VCC
-      (pins C4-2 C5-1 C8-1 C12-1 C13-1 R6-2 U1-1 U1-3 U1-9 U1-19 U1-24 U1-27 U2-4
-        U3-4 U4-4 U5-4 U6-4 U7-4 U8-2)
+      (pins C4-2 C5-1 C8-1 C12-1 C13-1 R6-2 R9-1 R10-1 R11-1 U1-1 U1-3 U1-9 U1-19
+        U1-24 U1-27 U2-4 U3-4 U4-4 U5-4 U6-4 U7-4 U8-2)
     )
     (net "Net-(C6-Pad1)"
       (pins C6-1 U1-29)
@@ -516,9 +552,6 @@
     )
     (net "Net-(U1-Pad11)"
       (pins U1-11 U2-1)
-    )
-    (net "Net-(U1-Pad13)"
-      (pins U1-13)
     )
     (net "Net-(U1-Pad14)"
       (pins U1-14)
@@ -574,15 +607,27 @@
     (net "Net-(ANT1-Pad1)"
       (pins ANT1-1 C10-2 C11-1)
     )
-    (class kicad_default "" +BATT GND "Net-(ANT1-Pad1)" "Net-(ANT1-Pad2)"
-      "Net-(C1-Pad1)" "Net-(C10-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad2)" "Net-(C6-Pad1)"
-      "Net-(C7-Pad1)" "Net-(C9-Pad1)" "Net-(L1-Pad1)" "Net-(L1-Pad2)" "Net-(R1-Pad1)"
+    (net "Net-(R8-Pad2)"
+      (pins R8-2 SW1-1 SW1-1@1 SW2-1 SW2-1@1 SW3-1 SW3-1@1 U1-13)
+    )
+    (net "Net-(R9-Pad2)"
+      (pins R9-2 SW1-2 SW1-2@1)
+    )
+    (net "Net-(R10-Pad2)"
+      (pins R10-2 SW2-2 SW2-2@1)
+    )
+    (net "Net-(R11-Pad2)"
+      (pins R11-2 SW3-2 SW3-2@1)
+    )
+    (class kicad_default "" +BATT GND "Net-(ANT1-Pad1)" "Net-(C1-Pad1)" "Net-(C10-Pad1)"
+      "Net-(C2-Pad2)" "Net-(C3-Pad2)" "Net-(C6-Pad1)" "Net-(C7-Pad1)" "Net-(C9-Pad1)"
+      "Net-(L1-Pad1)" "Net-(L1-Pad2)" "Net-(R1-Pad1)" "Net-(R10-Pad2)" "Net-(R11-Pad2)"
       "Net-(R2-Pad1)" "Net-(R4-Pad1)" "Net-(R4-Pad2)" "Net-(R5-Pad1)" "Net-(R5-Pad2)"
-      "Net-(R6-Pad1)" "Net-(R7-Pad2)" "Net-(U1-Pad10)" "Net-(U1-Pad11)" "Net-(U1-Pad13)"
-      "Net-(U1-Pad14)" "Net-(U1-Pad15)" "Net-(U1-Pad16)" "Net-(U2-Pad5)" "Net-(U2-Pad6)"
-      "Net-(U3-Pad1)" "Net-(U3-Pad2)" "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(U4-Pad5)"
-      "Net-(U4-Pad6)" "Net-(U5-Pad5)" "Net-(U5-Pad6)" "Net-(U7-Pad5)" "Net-(U7-Pad6)"
-      "Net-(USB1-Pad4)" VCC
+      "Net-(R6-Pad1)" "Net-(R7-Pad2)" "Net-(R8-Pad2)" "Net-(R9-Pad2)" "Net-(U1-Pad10)"
+      "Net-(U1-Pad11)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
+      "Net-(U1-Pad16)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U3-Pad1)" "Net-(U3-Pad2)"
+      "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(U4-Pad5)" "Net-(U4-Pad6)" "Net-(U5-Pad5)"
+      "Net-(U5-Pad6)" "Net-(U7-Pad5)" "Net-(U7-Pad6)" "Net-(USB1-Pad4)" VCC
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
@@ -593,25 +638,5 @@
     )
   )
   (wiring
-    (wire (path F.Cu 250  186350 -114640  185420 -115570)(net VCC)(type protect))
-    (wire (path F.Cu 250  186350 -113360  186350 -114640)(net VCC)(type protect))
-    (wire (path F.Cu 250  178730 -114640  177800 -115570)(net VCC)(type protect))
-    (wire (path F.Cu 250  178730 -113360  178730 -114640)(net VCC)(type protect))
-    (wire (path F.Cu 250  186350 -104470  186350 -105750  185420 -106680)(net VCC)(type protect))
-    (wire (path F.Cu 250  178730 -104470  178730 -105750  177800 -106680)(net VCC)(type protect))
-    (wire (path F.Cu 250  171110 -113360  171110 -114640  170180 -115570)(net VCC)(type protect))
-    (wire (path F.Cu 250  171110 -104470  171110 -106340)(net VCC)(type protect))
-    (wire (path In1.Cu 250  171450 -106680  172720 -106680)(net VCC)(type protect))
-    (wire (path F.Cu 250  171110 -106340  171450 -106680)(net VCC)(type protect))
-    (wire (path F.Cu 250  171110 -102870  174330 -102870)(net "Net-(U2-Pad5)")(type protect))
-    (wire (path F.Cu 250  171110 -101270  174330 -101270)(net "Net-(U2-Pad6)")(type protect))
-    (wire (path F.Cu 250  178730 -102870  181950 -102870)(net "Net-(U4-Pad5)")(type protect))
-    (wire (path F.Cu 250  178730 -101270  181950 -101270)(net "Net-(U4-Pad6)")(type protect))
-    (via "Via[0-1]_600:400_um"  185420 -115570 (net VCC)(type protect))
-    (via "Via[0-1]_600:400_um"  177800 -115570 (net VCC)(type protect))
-    (via "Via[0-1]_600:400_um"  185420 -106680 (net VCC)(type protect))
-    (via "Via[0-1]_600:400_um"  177800 -106680 (net VCC)(type protect))
-    (via "Via[0-1]_600:400_um"  170180 -115570 (net VCC)(type protect))
-    (via "Via[0-1]_600:400_um"  171450 -106680 (net VCC)(type protect))
   )
 )

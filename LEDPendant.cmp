@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-05-23 BZR 5679)-product   date = Saturday, May 30, 2015 'PMt' 01:35:44 PM
+Cmp-Mod V01 Created by Cvpcb (2015-05-23 BZR 5679)-product   date = Sunday, May 31, 2015 'PMt' 12:41:43 PM
 
 BeginCmp
 TimeStamp = /55668E03;
@@ -166,6 +166,55 @@ TimeStamp = /5566649C;
 Reference = R7;
 ValeurCmp = 22k;
 IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B6527;
+Reference = R8;
+ValeurCmp = 100k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B63E4;
+Reference = R9;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B6441;
+Reference = R10;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B64C2;
+Reference = R11;
+ValeurCmp = 47k;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B6890;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = Buttons_Switches_SMD:SW_SPST_PTS645;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B718F;
+Reference = SW2;
+ValeurCmp = SPST;
+IdModule  = Buttons_Switches_SMD:SW_SPST_PTS645;
+EndCmp
+
+BeginCmp
+TimeStamp = /556B7227;
+Reference = SW3;
+ValeurCmp = SPST;
+IdModule  = Buttons_Switches_SMD:SW_SPST_PTS645;
 EndCmp
 
 BeginCmp
